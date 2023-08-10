@@ -9,3 +9,6 @@ this command will creat assimbly file that will be named exactly like the name s
 3-gcc -c "$CFILE" -o "${CFILE%.c}.o"
 use this command to compile file without link.
 
+4-gcc "$CFILE" -o cisfun
+use this command to compile C file and save output into new file named cisfun
+
