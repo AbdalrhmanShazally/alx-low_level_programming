@@ -6,5 +6,6 @@ write this command to compile c file name saved in variable $cfile and save outp
 2-gcc -S "$CFILE" -o "${CFILE%.c}.s"
 this command will creat assimbly file that will be named exactly like the name saved iin variable {$File}.
 
-
+3-gcc -c "$CFILE" -o "${CFILE%.c}.o"
+use this command to compile file without link.
 
