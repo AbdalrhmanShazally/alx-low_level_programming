@@ -1,5 +1,12 @@
 #include <stdio.h>
-/*main method begin*/
+/**
+ * main - Entry point
+ * 
+ * Description: 'Print exactly needed output for C programing tutorial ALX'
+ *  * @parameter: No Paramters
+ * 
+ * Return: Always 0 (Success)
+ *  */
 int main(void)
 {
 /* using Puts to print the recommended output  */
