@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *  * main - Entry point
- *  Description: 'Print exactly prints the sizes of various types as described in the example'
+ *  Description: 'Print the sizes of types as described in the example'
  *  Return: Always 0 (Success)
 **/
 int main(void)
