@@ -4,8 +4,8 @@
 /* more headers goes there */
 /**
  *  * main - Entry point
- *  Description: This program will assign a random number to the variable n each time it is executed
- *	The variable n will store a different value every time you will run this program
+ *  Description:assign a random number to the variable n each time it is executed
+ *
  *	The output of the program should be:
 *	The number, followed by
 *	if the number is greater than 0: is positive
