@@ -16,17 +16,16 @@ for (num = 0; num <= 9; num++)
 {
 	for (num2 = 0; num2 <= 9; num2++)
 	{
-		if (num2 > num)
-			{
-				putchar('0' + num);
-				putchar('0' + num2);
-				if (num != 9 || num2 != 9)
+	if (num2 > num)
+		{
+			putchar('0' + num);
+			putchar('0' + num2);
+			if (num != 9 || num2 != 8)
 				{
 					putchar(',');
-					putchar(' ');
-					
+					putchar(' ');		
 				}
-			}
+		}
 	}
 }
 	putchar('\n');
