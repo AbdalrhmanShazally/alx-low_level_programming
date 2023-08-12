@@ -12,8 +12,7 @@ int main(void)
 {
 	char lowercase = 'z';
 
-do
-{
+do {
 	putchar(lowercase);
 	lowercase--;
 } while (lowercase >= 'a');
