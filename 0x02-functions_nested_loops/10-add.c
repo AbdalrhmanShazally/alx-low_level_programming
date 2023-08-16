@@ -4,7 +4,7 @@
  *  Description: add fucntion add 2 integers and return result.
  *	@a : first integers.
  *	@b : secoend Integer.
- * 	Return : result of adding 2 integers.
+ * 	Return: result of Sum a & b.
  *      by a.shazally.
 **/
 int add(int a, int b)
