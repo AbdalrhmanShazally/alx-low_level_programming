@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
-* print_numbers - print numbers 0 to 9
-* by a.shazally
-* Return: void
+* print_most_numbers - print numbers
+* Return: void.
 */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	char i;
 	
 	for (i = '0'; i <= '9'; i++)
 	{
-		_putchar(i);
+		if (!(i == '2' || i == '4'))
+			_putchar(i);
 	}
 	_putchar('\n');
 }
