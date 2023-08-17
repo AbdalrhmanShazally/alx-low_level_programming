@@ -3,6 +3,7 @@
 /**
 * print_numbers - print numbers 0 to 9
 * by a.shazally
+* Return: void
 */
 
 void print_numbers(void)
