@@ -5,26 +5,27 @@
 * copies the string pointed to by src.
 * @dest: copy to string
 * @src: string copying from
+* @n: the last integer to start from
 * Return: String
 */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	char *dest_end = dest;
+	int i,  j;
 
-
-	while (*dest_end != '\0')
+	i = 0;
+	while (dest[i] != '\0')
 	{
-	dest_end++;
+	i++;
 	}
-	while (*src != '\0' && n > 0)
+	j = 0;
+	while (j < n && src[j] != '\0')
 	{
-	*dest_end = *src;
-	dest_end++;
-	src++;
-	n--;
+	dest[i] = src[j];
+	i++;
+	j++;
 	}
-	*dest_end = '\0';
+	dest[i] = '\0';
 
 	return (dest);
 }
